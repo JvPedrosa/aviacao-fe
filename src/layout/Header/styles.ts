@@ -5,13 +5,13 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1.5px solid ${({ theme }) => theme.colors.arsenic};
-  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); */
+  border-bottom: 1.5px solid ${({ theme }) => theme.border};
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   padding: 0 8px;
   position: fixed;
   top: 0;
   z-index: 9;
-  background-color: ${({ theme }) => `${theme.colors.blackEerie}87`};
+  background-color: ${({ theme }) => theme.headerBackground};
   backdrop-filter: blur(10px);
 
   @media (max-width: 768px) {
@@ -55,4 +55,10 @@ export const Container = styled.header`
       margin-left: 8px;
     }
   }
+`;
+
+export const MenuIconBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
