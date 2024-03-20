@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignora todos os arquivos na pasta node_modules
+node_modules/
+
+# Ignora arquivos temporários que terminam com .tmp ou .log
+*.tmp

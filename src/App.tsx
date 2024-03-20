@@ -4,6 +4,7 @@ import { theme } from "./styles/theme";
 import { Header } from "./layout/Header";
 import { BrowserRouter } from "react-router-dom";
 import { Routes } from "./app/router";
+import { Footer } from "./layout/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Header />
         <Routes />
+        <Footer />
       </ThemeProvider>
     </BrowserRouter>
   );

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
+  height: 52px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,6 +59,13 @@ export const Container = styled.header`
 `;
 
 export const MenuIconBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+`;
+
+export const HeaderLink = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;

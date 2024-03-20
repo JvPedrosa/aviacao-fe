@@ -1,5 +1,5 @@
 export const theme = {
-  background: "#1f1f1f", // Dark Grey - Background principal
+  background: "#222222", // Dark Grey - Background principal
   primary: "#1E90FF", // Dodger Blue - Destaques e botões primários
   secondary: "#76FF03", // Neon Green - Acentos secundários e informações adicionais
   highlight: "#FFC107", // Amber - Itens destacados e alertas
@@ -12,5 +12,5 @@ export const theme = {
   border: "#424242", // Grey - Bordas e divisões
   white: "#FFFFFF", // White - Texto em fundo escuro
   black: "#000000", // Black - Texto em fundo branco
-  headerBackground: "#121212", // Dark Grey - Background do cabeçalho
+  headerBackground: "#1f1f1f", // Dark Grey - Background do cabeçalho
 };

@@ -1,15 +1,16 @@
-import { Container } from "./styles";
-import { MenuItem, Typography } from "@mui/material";
+import { Home } from "@mui/icons-material";
+import { MenuItem } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { HeaderLink } from "../../styles";
 
 export const NavigationMenuDesktop = () => {
   const navigate = useNavigate();
 
   return (
-    <Container>
+    <HeaderLink>
       <MenuItem onClick={() => navigate("/")}>
-        <Typography>Home</Typography>
+        <Home fontSize="large" />
       </MenuItem>
-    </Container>
+    </HeaderLink>
   );
 };
